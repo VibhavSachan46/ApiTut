@@ -5,6 +5,6 @@ import retrofit2.http.GET
 
 interface ApiInterface {
 
-    @GET("products")
+    @GET("products") //endpoint of url
     fun getProductData(): Call<MyData>
 }
